@@ -215,7 +215,7 @@ public class TicTacToeGameController : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = $"PLAYER: {playerScore} - {aiScore}: AI";
+        scoreText.text = $"{playerScore}       VS       {aiScore}";
     }
 
     void SaveScores()
