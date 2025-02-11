@@ -37,7 +37,7 @@ public class HeartsBehavior : MonoBehaviour
             yield return new WaitForSeconds(1f);
             
             PlayerPrefs.SetString("SameColor", "no");
-            SceneManager.LoadScene("Game_3");
+            SceneManager.LoadScene("Game_4");
         }
     }
 }

@@ -24,6 +24,6 @@ public class ScoreController : MonoBehaviour
             PlayerPrefs.SetInt("BestScore", BestScore);
         }
 
-        _bestScoreText.text = $"BEST: {BestScore}";
+        _bestScoreText.text = $"{BestScore}";
     }
 }
